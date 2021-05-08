@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/*header*/
+.header_top{
+    position: relative;
+    top: 20px;
+    left: 18px;
+}
+
+.header_top img{
+    margin-bottom: 20px;
+}
+
+.header_top .header_top_item img:nth-child(1){
+    position:absolute;
+    top: 20px;
+    left: -28px;
+}
+
+.header_bottom{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+}
+
+.header_bottom img{
+    margin-right: 10px;
+}
+
+/*banner*/
+.banner_top{
+    display: flex;
+    justify-content :space-between;
+    align-items:center;
+}
+ul{
+    list-style: none;
+}
+
+
+.banner .Divider{
+    border-top:1px solid rgb(42, 53, 71);
+    margin: 20px;
+}
+
+.menu, .your_peroducts, .dashboard, .monthly_goals{
+    margin: 0 20px;
+}
+
+.menu{
+    margin-top: 20px;
+}
+.dashboard{
+    margin-bottom: 20px;
+}
+
+.menu ul li, .dashboard ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashboard ul li:nth-child(1) img{
+    position:absolute;
+    top: 545px;
+    left: -5px;
+}
+
+.dashboard ul li:nth-child(1) .list_content{
+    color: rgb(255, 255, 255);
+}
+
+.banner .message_num{
+    border-radius: 50%;
+    background-color: rgb(25,145,235);
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    line-height: 1.9;
+    text-align: center;
+}  
+
+.dashboard ul li:nth-child(3) img{
+    width: 24px;
+    height: 24px;
+}
+
+.banner .title{
+    font-size: 12px;
+    font-family: "ProximaNova";
+    color: rgb(91, 103, 121);
+    text-transform: uppercase;
+    line-height: 3.333;
+    text-align: left;
+}
+
+.banner .list_content {
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(183, 192, 205);
+    line-height: 2.571;
+    text-align: left;
+}
+  
+.monthly_goals{
+    position:absolute;
+    bottom:10px;
+    left:0px;
+
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}  
+
+/*content general*/
+.content{
+    display: flex;
+    flex-wrap:wrap;
+}
+.name{
+    font-size: 16px;
+    font-family: "ProximaNova";
+    color: rgb(88, 93, 104);
+    line-height: 1.2;
+    text-align: left; 
+}
+
+.date {
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(127, 143, 164);
+    line-height: 2.571;
+    text-align: right;
+}
+
+.label {
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(181, 181, 181);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.message_content {
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(88, 93, 104);
+    line-height: 1.357;
+    width: 307px;
+    height: 32px;
+}
+  
+/*content-top*/
+
+.content_top{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 10px 20px;
+}
+.content_top .title{
+    font-size: 24px;
+    font-family: "ProximaNova";
+    color: rgb(53, 64, 82);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.admin{
+    display: flex;
+}
+
+.admin .admin_right{
+    margin-left: 10px;
+    
+}
+
+.admin .name{
+    font-size: 16px;
+    font-family: "ProximaNova";
+    color: rgb(35, 153, 241);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.admin .label {
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(181, 181, 181);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*content-left*/
+
+.content_left{
+    width: 390px;
+}
+.list_top{
+    display: flex;
+}
+.list_top .list_middle{
+    width: 150px;
+    margin-left: 10px;
+}
+
+.content_left .message_content{
+    width: 340px;
+    margin-top: 10px;
+}
+
+.search, .content_left li{
+    border: 1px solid rgb(230, 233, 236);
+    margin-bottom: -1px;
+    margin-right: -1px;
+}
+
+.search{
+    margin-right: 0px;
+}
+
+.search{
+    height: 80px;
+    padding: 0 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 348px;
+}
+
+.search img{
+    position:absolute;
+    left: 330px;
+}
+
+.search input{
+    border: 1px solid rgb(230, 233, 236);
+    width: 340px;
+    height: 40px;
+}
+
+.content_left ul li{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content_left li:nth-child(1) .name{
+    color: rgb(35, 153, 241);
+}
+
+.content_left .Divider {
+    background-color: rgb(35, 153, 241);
+    position: absolute;
+    top: 151px;
+    left: 0px;
+    width: 3px;
+    height: 134px;
+  }
+  
+
+/*content-right*/
+.content_right{
+    width: calc(100% - 390px);
+}
+
+.message_list{
+    border-top: 1px solid rgb(230, 233, 236);
+    border-bottom: 1px solid rgb(230, 233, 236);
+    border-left: 1px solid rgb(230, 233, 236);
+    padding-top: 20px;
+}
+
+.former_messages, .latest_messages, .new_messages{
+    padding-left: 20px;
+}
+
+.new_messages{
+    padding-bottom: 20px;
+}
+
+.content_right .top{
+    display: flex;
+    border-top: 1px solid rgb(230, 233, 236);
+    border-bottom: 1px solid rgb(230, 233, 236);
+    border-left: 1px solid rgb(230, 233, 236);
+    height: 80px;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: -1px;
+    justify-content:space-between;
+}
+
+.content_right .top_right{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.content_right .button_list button{
+    float: left;
+    padding: 5px 6px;
+    border: 1px solid rgb(206, 208, 218);
+    border-radius: 3px;
+}
+
+.content_right .button_list button:nth-child(1){
+    margin-right: -2px;
+}
+.content_right .button_list button:nth-child(2){
+    padding-bottom: 6px;
+}
+.content_right .button_list button:nth-child(3){
+    margin-left: -2px;
+}
+
+.content_right .page_list{
+    display: flex;
+    align-items: center;
+}
+
+.content_right .page_list_buttons{
+    display: flex;
+    margin-left: 10px;
+}
+
+.content_right .page_list_buttons button{
+    float: left;
+    padding: 6px 10px;
+    border: 1px solid rgb(206, 208, 218);
+    border-radius: 3px;
+}
+.content_right .page_list_buttons button:nth-child(1){
+    margin-right: -2px;
+} 
+
+.content_right .Divider{
+    width: 1px;
+    height: 30px; 
+    background-color: rgb(206, 208, 218);
+    opacity: 0.302;
+    margin: 0 20px;
+}  
+
+.latest_messages_hr{
+    line-height:1px;
+    border-left:250px solid rgb(230, 233, 236);
+    border-right:250px solid rgb(230, 233, 236);
+    text-align:center;
+    color: rgb(127, 143, 164);
+    font-size:14px;
+    font-family: "ProximaNova";
+}
+
+
+.new_messages_hr{
+    line-height:1px;
+    border-left:230px solid rgba(35, 153, 241, 0.4);
+    border-right:230px solid rgba(35, 153, 241, 0.4);
+    text-align:center;
+    color: rgb(35, 153, 241);
+    font-size:14px;
+    font-family: "ProximaNova";
+    margin-top: 20px;
+}  
+
+.message{
+    display: flex;
+    align-items: flex-start;
+}
+
+.message_right{
+    margin: 0 20px;
+}
+
+.message .message_content{
+    width: 100%;
+    height: 80px;
+}
+
+.send{
+    display: flex;
+}
+.send input{
+    border-width: 1px;
+    border-color: rgb(223, 227, 233);
+    border-style: solid;   
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 87%;
+    height: 56px;
+    margin-left: -2px;
+}  
+
+.latest_messages, .new_messages{
+    margin-top: 20px;
+}
+
+/*总体布局*/
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    min-height: 100%;
+    height: 992px;
+    background-color: rgb(29, 37, 49);
+}
+
+.banner{
+    background-color: rgb(34, 44, 60);
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 250px;
+    min-height: 100%;
+    height: 992px;
+}
+
+.content{
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    min-width: calc(100% - 350px);
+    min-height: 100%;
+}
+
+
+
+
+  
+  
+  
+  
+  
